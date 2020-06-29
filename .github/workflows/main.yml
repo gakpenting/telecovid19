@@ -1,4 +1,4 @@
-name: CI
+name: SCHEDULE
 
 on: [push]
 

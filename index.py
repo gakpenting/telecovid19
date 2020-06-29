@@ -10,5 +10,5 @@ api_hash = os.environ['TELEGRAM_API_HASH']
 client = TelegramClient(session, api_id, api_hash)
 client.connect()
 lonami = client.get_entity('resaqulyubi')
-client.send_message(lonami.id, 'sek gagal tapi res ben send message kudu ngelebokno number')
+client.send_message(lonami.id, 'KAMU LUCUUUUUUU [BOT]')
 # print(lonami.id)

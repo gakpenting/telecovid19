@@ -13,9 +13,9 @@ client = TelegramClient(session, api_id, api_hash)
 client.connect()
 lonami = client.get_entity(os.getenv('SEND_TO',config('SEND_TO')))
 client.send_message(lonami.id, """
-hahahah
-hahahah
-hahahaha
+TOTAL POSITIF COVID
+https://covid19.mathdro.id/api/
+DELOKEN DEWE WKWKWKKW
 """)
 
 

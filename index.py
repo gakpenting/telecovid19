@@ -12,7 +12,10 @@ api_hash = os.getenv('TELEGRAM_API_HASH',config('TELEGRAM_API_HASH'))
 client = TelegramClient(session, api_id, api_hash)
 client.connect()
 lonami = client.get_entity(os.getenv('SEND_TO',config('SEND_TO')))
-wget.download("https://covid19.mathdro.id/api/og",out="panda.jpg")
-client.send_file(lonami.id, 'panda.jpg', caption="PLEASE STAY HOMEEEEEEEEEEE")
-os.remove("panda.jpg")
+client.send_message(lonami.id, """
+hahahah
+hahahah
+hahahaha
+""")
+
 
